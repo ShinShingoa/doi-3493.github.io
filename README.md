@@ -49,9 +49,15 @@
             box-sizing: border-box;
         }
         
-        /* Hide GitHub Pages default header */
-        body > h1 {
-            display: none !important;
+        /* Hide GitHub Pages default header and override container */
+        body > h1,
+        .container-lg,
+        .markdown-body {
+            display: block !important;
+            max-width: none !important;
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
         }
         
         html {
@@ -66,10 +72,9 @@
             line-height: 1.6;
             position: relative;
             min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 2rem;
+            display: block;
+            padding: 0;
+            margin: 0;
         }
         
         /* ==========================================
@@ -77,17 +82,18 @@
            ========================================== */
         .terminal {
             border: solid 3px #990000;
-            border-radius: 16px;
+            border-radius: 0;
             background-color: #310000;
-            background-image: radial-gradient(ellipse 1000% 100% at 50% 90%, transparent, #210000);
-            background-position: center;
+            background-image: radial-gradient(ellipse 1000% 100% at 50% 50%, transparent, #210000);
+            background-position: center center;
             display: block;
             box-shadow: inset 0 0 10em 1em rgba(0, 0, 0, 0.5);
             overflow: hidden;
-            max-width: 800px;
-            width: 100%;
-            min-height: 600px;
-            position: relative;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
         }
         
         .terminal blockquote {
@@ -104,6 +110,11 @@
             font-family: Verdana;
             text-align: center;
             padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
         
         .log-form .logint {
@@ -188,10 +199,15 @@
             padding: 2rem;
             text-align: center;
             animation: fadeIn 0.5s;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         
         .email-content.active {
-            display: block;
+            display: flex;
         }
         
         @keyframes fadeIn {
