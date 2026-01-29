@@ -228,6 +228,7 @@
             text-align: left;
             margin: 1rem 0;
             border-radius: 5px;
+            font-family: var(--mono-font);
         }
         
         .tofrom {
@@ -304,6 +305,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            font-family: var(--mono-font);
         }
         
         .logout-screen.active {
@@ -316,6 +318,7 @@
             color: #ff0000;
             line-height: 1.8;
             text-align: center;
+            font-family: var(--mono-font);
         }
         
         /* ==========================================
@@ -471,7 +474,6 @@
         <div class="logout-screen" id="logoutScreen">
             <div class="logout-message">
         <div class="logint">LOGGED OUT</div>
-        <br><br>
                 <div class="email">
                 Have a nice day, Percival Crenshaw.
             </div>
