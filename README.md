@@ -420,6 +420,7 @@
 </head>
 <body>
     <!-- Scanline effects -->
+    
     <div id="scanline-overlay"></div>
     <div id="scanline-moving"></div>
     <div id="vignette"></div>
@@ -469,7 +470,8 @@
         <!-- Logout Screen (Hidden Initially) -->
         <div class="logout-screen" id="logoutScreen">
             <div class="logout-message">
-                LOGGED OUT<br><br>
+        <div class="logint">LOGGED OUT</div>
+        <br><br>
                 <div class="email">
                 Have a nice day, Percival Crenshaw.
             </div>
