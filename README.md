@@ -4,6 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCiPNET Terminal Access</title>
     
+    <!-- Remove the blue website name/title from browser tabs and search results -->
+    <meta name="theme-color" content="#310000">
+    <link rel="icon" href="data:,">
+    
     <!-- Font Imports -->
     <link rel="stylesheet" href="https://scp-wiki.wdfiles.com/local--files/theme:isolated-terminal/terminus.css">
     <link rel="stylesheet" href="https://scp-wiki.wdfiles.com/local--files/theme:isolated-terminal/profontwindows.css">
@@ -99,6 +103,7 @@
             font-family: Verdana;
             text-align: center;
             padding: 2rem;
+            padding-top: 4rem;
         }
         
         .log-form .logint {
@@ -111,6 +116,7 @@
         .login-container {
             max-width: 450px;
             margin: 2rem auto;
+            padding: 0 2rem;
         }
         
         .input-group {
@@ -430,8 +436,7 @@
         function logout() {
             document.getElementById('loginForm').style.display = 'block';
             document.getElementById('emailContent').classList.remove('active');
-            // Clear password for security
-            document.getElementById('password').value = '';
+            // Keep password filled on logout (no clearing)
         }
         
         // Allow Enter key to submit
