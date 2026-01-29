@@ -1,9 +1,4 @@
 <html lang="en">
-<head>
-    
-    <!-- Remove the blue website name/title from browser tabs and search results -->
-    <meta name="theme-color" content="#310000">
-    <link rel="icon" href="data:,">
     
     <!-- Font Imports -->
     <link rel="stylesheet" href="https://scp-wiki.wdfiles.com/local--files/theme:isolated-terminal/terminus.css">
