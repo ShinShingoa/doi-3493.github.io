@@ -417,7 +417,7 @@
                 <div class="tofrom">
                     <strong>To:</strong> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">P.Crenshaw@scip.net</a><br>
                     <strong>From:</strong> Site-72 Department of Administration, Records Department.<br>
-                    <strong>Subject:</strong> Senior Agent "Insight"
+                    <strong>Subject:</strong> "Insight"
                 </div>
                 
                 <hr>
@@ -425,8 +425,8 @@
                 <p>Your request for Information, regarding <strong>'Insight'</strong> of the Site-72 Department of Investigations, has been approved.</p>
                 
                 <blockquote>
-                    <strong>[Attachments:]</strong><br>
-                    <a href="3493-unredacted.html">Department Of Investigations | S.A. 3493, 'Insight'.</a>
+                    <strong> [Attachments:]</strong><br>
+                    <a href="3493-unredacted.html">Department Of Investigations | I.N. 3493, 'Insight'.</a>
                 </blockquote>
             </div>
             
