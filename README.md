@@ -1,4 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="theme-color" content="#310000">
+    <link rel="icon" href="data:,">
     
     <!-- Font Imports -->
     <link rel="stylesheet" href="https://scp-wiki.wdfiles.com/local--files/theme:isolated-terminal/terminus.css">
@@ -75,8 +82,8 @@
             display: block;
             box-shadow: inset 0 0 10em 1em rgba(0, 0, 0, 0.5);
             overflow: hidden;
-            max-width: 800px;
             width: 100%;
+            max-width: 100%;
             min-height: 600px;
             position: relative;
         }
