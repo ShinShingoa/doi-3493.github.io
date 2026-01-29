@@ -379,11 +379,11 @@
             <div class="login-container">
                 <div class="input-group">
                     <label for="username">USERNAME:</label>
-                    <input type="text" id="username" placeholder="Enter username" value="P.Crenshaw">
+                    <input type="text" id="username" placeholder="Enter username" value="P.Crenshaw" readonly>
                 </div>
                 <div class="input-group">
                     <label for="password">PASSWORD:</label>
-                    <input type="password" id="password" placeholder="Enter password" value="Password123">
+                    <input type="password" id="password" placeholder="Enter password" value="Password123" readonly>
                 </div>
                 <button class="login-btn" onclick="login()">Login</button>
             </div>
