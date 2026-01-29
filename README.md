@@ -67,7 +67,7 @@
         body {
             font-family: var(--body-font);
             font-size: var(--base-font-size);
-            color: rgba(255, 128, 128, 0.85);
+            color: rgba(255, 0, 0);
             background: #310000;
             line-height: 1.6;
             position: relative;
@@ -98,7 +98,7 @@
         
         .terminal blockquote {
             background-color: black;
-            border: double 3px #FF8080;
+            border: double 3px #ff0000;
             padding: 1rem;
             margin: 1rem 0;
         }
@@ -120,7 +120,7 @@
         .log-form .logint {
             font-size: 420%;
             font-family: 'K2D', sans-serif;
-            color: rgba(255, 128, 128, 0.85);
+            color: rgba(255, 0, 0);
             margin-bottom: 2rem;
         }
         
@@ -137,7 +137,7 @@
         .input-group label {
             display: block;
             margin-bottom: 0.5rem;
-            color: #FF9999;
+            color: #ff0000;
             font-family: var(--mono-font);
         }
         
@@ -147,7 +147,7 @@
             outline: none;
             border: 1px solid #990000;
             background-color: rgba(0, 0, 0, 0.3);
-            color: #FF9999;
+            color: #ff0000;
             font-family: var(--mono-font);
             border-radius: 3px;
         }
@@ -219,7 +219,7 @@
             font-size: 1.5rem;
             font-weight: bold;
             margin-bottom: 2rem;
-            color: #FF9999;
+            color: #ff0000;
         }
         
         .email {
@@ -238,7 +238,7 @@
         }
         
         .tofrom strong {
-            color: #FF8080;
+            color: #ff0000;
         }
         
         .email hr {
@@ -257,7 +257,7 @@
            TERMINAL TEXT STYLING
            ========================================== */
         .text a {
-            color: #FF9999;
+            color: #ff0000;
             text-decoration: none;
             background: transparent;
             padding: 0.2em 0.4em;
@@ -267,7 +267,7 @@
         .text a:hover {
             color: #310000;
             text-decoration: underline;
-            background-color: #FF8080;
+            background-color: #ff0000;
         }
         
         .text a:hover::before {
@@ -277,9 +277,9 @@
         .logout-btn {
             display: inline-block;
             background-color: #990000;
-            color: #FF9999;
+            color: #ff0000;
             padding: 8px 16px;
-            border: 1px solid #FF8080;
+            border: 1px solid #c70202;
             cursor: pointer;
             opacity: 0.9;
             transition: 0.3s;
@@ -290,7 +290,7 @@
         
         .logout-btn:hover {
             opacity: 1;
-            background-color: #FF8080;
+            background-color: #ff0000;
             color: #310000;
         }
         
