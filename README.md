@@ -1,11 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <meta name="theme-color" content="#310000">
-    <link rel="icon" href="data:,">
+    <title>SCiPNET Terminal Access</title>
     
     <!-- Font Imports -->
     <link rel="stylesheet" href="https://scp-wiki.wdfiles.com/local--files/theme:isolated-terminal/terminus.css">
@@ -52,6 +49,11 @@
             box-sizing: border-box;
         }
         
+        /* Hide GitHub Pages default header */
+        body > h1 {
+            display: none !important;
+        }
+        
         html {
             background: rgb(var(--darkColor));
         }
@@ -82,8 +84,8 @@
             display: block;
             box-shadow: inset 0 0 10em 1em rgba(0, 0, 0, 0.5);
             overflow: hidden;
+            max-width: 800px;
             width: 100%;
-            max-width: 100%;
             min-height: 600px;
             position: relative;
         }
@@ -102,7 +104,6 @@
             font-family: Verdana;
             text-align: center;
             padding: 2rem;
-            padding-top: 4rem;
         }
         
         .log-form .logint {
@@ -115,7 +116,6 @@
         .login-container {
             max-width: 450px;
             margin: 2rem auto;
-            padding: 0 2rem;
         }
         
         .input-group {
