@@ -200,7 +200,6 @@
             text-align: center;
             animation: fadeIn 0.5s;
             min-height: 100vh;
-            display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -295,6 +294,31 @@
         }
         
         /* ==========================================
+           LOGOUT SCREEN
+           ========================================== */
+        .logout-screen {
+            display: none;
+            padding: 2rem;
+            text-align: center;
+            min-height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logout-screen.active {
+            display: flex;
+        }
+        
+        .logout-message {
+            font-size: 2rem;
+            font-family: var(--mono-font);
+            color: #ff0000;
+            line-height: 1.8;
+            text-align: center;
+        }
+        
+        /* ==========================================
            SCANLINE MONITOR EFFECT
            ========================================== */
         #scanline-overlay {
@@ -355,11 +379,19 @@
             .log-form .logint {
                 font-size: 285% !important;
             }
+            
+            .logout-message {
+                font-size: 1.2rem;
+            }
         }
 
         @media (min-width: 400px) and (max-width: 450px) {
             .log-form .logint {
                 font-size: 330% !important;
+            }
+            
+            .logout-message {
+                font-size: 1.5rem;
             }
         }
 
@@ -379,7 +411,8 @@
             }
             
             .log-form,
-            .email-content {
+            .email-content,
+            .logout-screen {
                 padding: 1rem;
             }
         }
@@ -432,6 +465,17 @@
             
             <button class="logout-btn" onclick="logout()">Logout</button>
         </div>
+        
+        <!-- Logout Screen (Hidden Initially) -->
+        <div class="logout-screen" id="logoutScreen">
+            <div class="logout-message">
+            <div class="email">
+                LOGGED OUT<br><br>
+                Have a nice day,<br>
+                Percival Crenshaw.
+            </div>
+            </div>
+        </div>
     </div>
     
     <script>
@@ -449,9 +493,9 @@
         }
         
         function logout() {
-            document.getElementById('loginForm').style.display = 'block';
             document.getElementById('emailContent').classList.remove('active');
-            // Keep password filled on logout (no clearing)
+            document.getElementById('logoutScreen').classList.add('active');
+            // No way to return - logout is permanent
         }
         
         // Allow Enter key to submit
