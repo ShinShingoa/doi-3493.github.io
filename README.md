@@ -1,8 +1,5 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCiPNET Terminal Access</title>
     
     <!-- Remove the blue website name/title from browser tabs and search results -->
     <meta name="theme-color" content="#310000">
