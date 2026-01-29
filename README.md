@@ -462,7 +462,7 @@
                 <p>Your request for Information, regarding <strong>'Insight'</strong> of the Site-72 Department of Investigations, has been approved.</p>
                 
                 <blockquote>
-                    <strong>‎ [Attachments:]</strong><br>
+                    <strong>‎[Attachments:]</strong><br>
                     <a href="3493-unredacted.html">Department Of Investigations | I.N. 3493, 'Insight'.</a>
                 </blockquote>
             </div>
