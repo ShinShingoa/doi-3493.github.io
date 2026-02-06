@@ -454,8 +454,9 @@
                 </div>
                 
                 <hr>
-                
+                                    <div class="tofrom">
                 <p>Your request for Information, regarding <strong>'Insight'</strong> of the Site-72 Department of Investigations, has been approved.</p>
+                                    </div>
                 <blockquote>
                     <div class="tofrom">
                     <strong>‎[Attachments:]</strong><br>
