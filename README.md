@@ -460,7 +460,7 @@
                 <blockquote>
                     <div class="tofrom">
                     <strong>‎[Attachments:]</strong><br>
-                    <a href="3493-unredacted.html">Department Of Investigations | I.N. 3493, 'Insight'.</a>
+                    <a href="https://scp-sandbox-3.wikidot.com/3493-unredacted">Department Of Investigations | I.N. 3493, 'Insight'.</a>
                     </div>
                 </blockquote>
             </div>
