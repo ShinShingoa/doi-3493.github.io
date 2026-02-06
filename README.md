@@ -470,9 +470,11 @@
         <!-- Logout Screen (Hidden Initially) -->
         <div class="logout-screen" id="logoutScreen">
             <div class="logout-message">
-                LOGGED OUT<br><br>
-                Have a nice day,<br>
-                Percival Crenshaw.
+                <div class="logint">LOGGED OUT</div>
+                <div class="email">
+                Have a nice day, Percival Crenshaw.
+            </div>
+            </div>
             </div>
         </div>
     </div>
