@@ -81,7 +81,7 @@
            TERMINAL CONTAINER
            ========================================== */
         .terminal {
-            border: solid 3px #990000;
+            border: none;
             border-radius: 0;
             background-color: #310000;
             background-image: radial-gradient(ellipse 1000% 100% at 50% 50%, transparent, #210000);
