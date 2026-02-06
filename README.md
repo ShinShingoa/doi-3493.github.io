@@ -228,7 +228,6 @@
             text-align: left;
             margin: 1rem 0;
             border-radius: 5px;
-            font-family: var(--mono-font);
         }
         
         .tofrom {
@@ -257,21 +256,21 @@
            TERMINAL TEXT STYLING
            ========================================== */
         .text a {
-            color: #ff0000;
-            text-decoration: none;
-            background: transparent;
+            color: #310000;
+            text-decoration: underline;
+            background-color: #ff0000;
             padding: 0.2em 0.4em;
             transition: all 0.2s;
+        }
+        
+        .text a::before {
+            content: "> ";
         }
         
         .text a:hover {
             color: #310000;
             text-decoration: underline;
             background-color: #ff0000;
-        }
-        
-        .text a:hover::before {
-            content: "> ";
         }
         
         .logout-btn {
@@ -305,7 +304,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-family: var(--mono-font);
         }
         
         .logout-screen.active {
@@ -318,7 +316,6 @@
             color: #ff0000;
             line-height: 1.8;
             text-align: center;
-            font-family: var(--mono-font);
         }
         
         /* ==========================================
@@ -423,7 +420,6 @@
 </head>
 <body>
     <!-- Scanline effects -->
-    
     <div id="scanline-overlay"></div>
     <div id="scanline-moving"></div>
     <div id="vignette"></div>
@@ -462,7 +458,7 @@
                 <p>Your request for Information, regarding <strong>'Insight'</strong> of the Site-72 Department of Investigations, has been approved.</p>
                 
                 <blockquote>
-                    <strong>‎[Attachments:]</strong><br>
+                    <strong>‎ [Attachments:]</strong><br>
                     <a href="3493-unredacted.html">Department Of Investigations | I.N. 3493, 'Insight'.</a>
                 </blockquote>
             </div>
@@ -473,10 +469,9 @@
         <!-- Logout Screen (Hidden Initially) -->
         <div class="logout-screen" id="logoutScreen">
             <div class="logout-message">
-        <div class="logint">LOGGED OUT</div>
-                <div class="email">
-                Have a nice day, Percival Crenshaw.
-            </div>
+                LOGGED OUT<br><br>
+                Have a nice day,<br>
+                Percival Crenshaw.
             </div>
         </div>
     </div>
