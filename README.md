@@ -461,6 +461,7 @@
                     <div class="tofrom">
                     <strong>‎[Attachments:]</strong><br>
                     <a href="https://shingop.github.io/DoI-3493-INSIGHT">Department Of Investigations | I.N. 3493, 'Insight'.</a>
+                    <a href="https://shingop.github.io/DoI-3493-INSIGHT" target="_blank">Department Of Investigations | I.N. 3493, 'Insight'.</a>
                     </div>
                 </blockquote>
             </div>
